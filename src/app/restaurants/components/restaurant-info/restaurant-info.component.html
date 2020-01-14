@@ -1,0 +1,11 @@
+<div>
+
+  <div class="data">
+    <p>Individual info</p>
+    <p>{{ restaurant.name }}</p>
+    <p *ngFor='let workingDay of restaurant.workingDays'>
+      {{ workingDay.day }} {{ workingDay.time }}
+    </p>
+  </div>
+
+</div>
