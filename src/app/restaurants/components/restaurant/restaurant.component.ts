@@ -27,6 +27,7 @@ export class RestaurantComponent implements OnInit {
       })
     })
     this.workingDays = data;
+    return data;
   }
 
   onClick() {

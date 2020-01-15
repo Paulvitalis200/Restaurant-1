@@ -1,0 +1,35 @@
+.main-div {
+  background: #f8f8ff;
+  height: 100vh;
+  padding: 30px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
+}
+
+.restaurants-container {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  width: 72%;
+  margin: 20px auto 0 auto;
+  padding: 0 20px 0 20px;
+}
+
+.restaurant-card {
+  width: 250px;
+  margin-bottom: 5px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: -3px -3px 6px 0 rgb(255, 255, 255),
+    3px 3px 6px 0 rgba(117, 125, 183, 0.349)
+}
+
+.restaurant-card:hover {
+  box-shadow: 3px 3px 6px 0 rgba(117, 125, 183, 0.7);
+}

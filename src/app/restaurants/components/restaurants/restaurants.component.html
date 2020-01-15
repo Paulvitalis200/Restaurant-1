@@ -1,7 +1,8 @@
- <div>
-  <p>Logo</p>
-  <div *ngFor='let restaurant of restaurants; index as ind'>
-
-    <app-restaurant [restaurant]="restaurant"></app-restaurant>
-  </div> 
+ <div class="main-div">
+  <img class="logo" src="../../../../assets/R4U logo.svg">
+  <div class="restaurants-container">
+    <div class="restaurant-card" *ngFor='let restaurant of restaurants; index as ind'>
+      <app-restaurant [restaurant]="restaurant"></app-restaurant>
+    </div> 
+  </div>
 </div>

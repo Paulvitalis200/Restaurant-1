@@ -1,8 +1,11 @@
-<div>
+<div class="restaurant-info" (click)="onClick()">
 
-  <div class="data">
+  <!-- <div class="data" (click)="onClick()">
     <p>{{ restaurant.name }}</p>
-  </div>
+  </div> -->
+  <img class="restaurant-info-image" src="https://source.unsplash.com/800x800/?restaurant" alt="restaurant image" />
   <!-- <p>{{ hours }}</p> -->
-  <button (click)="onClick()">View</button>
+  <div class="restaurant-name" (click)="onClick()">
+    <p class="restaurant-p">{{ restaurant.name }}</p>
+  </div>
 </div>

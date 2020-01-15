@@ -1,11 +1,19 @@
-<div>
+<div class="restaurant-info-parent">
+  <img class="logo-info" src="../../../../assets/R4U logo.svg">
+  <div class="restaurant-info-main">
+    <div class="restaurant-info-image-main">
+      <img class="restaurant-info-restaurant" src="https://source.unsplash.com/800x800/?restaurant"
+        alt="restaurant image" />
+    </div>
+    <div class="restaurant-details">
+      <h1 class="restaurant-info-title">{{ restaurant.name }}</h1>
 
-  <div class="data">
-    <p>Individual info</p>
-    <p>{{ restaurant.name }}</p>
-    <p *ngFor='let workingDay of restaurant.workingDays'>
-      {{ workingDay.day }} {{ workingDay.time }}
-    </p>
+      <p>{{ today | date:'h:mm a' | lowercase }}</p>
+      <h2 class="restaurant-info-hours">Business hours</h2>
+      <p class="restaurant-info-workingday" *ngFor='let workingDay of restaurant.workingDays'>
+        {{ workingDay.day }} {{ workingDay.time }}
+      </p>
+      <div class="restaurant-info-button" (click)="backClicked()">Back</div>
+    </div>
   </div>
-
 </div>

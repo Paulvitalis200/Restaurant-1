@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175.098" height="165" viewBox="0 0 175.098 165">
+  <g id="Group_94" data-name="Group 94" transform="translate(-872.5 -5)">
+    <g id="Group_58" data-name="Group 58" transform="translate(873.621 5)">
+      <text id="_4" data-name="4" transform="translate(60.488 104)" fill="#f2b9ae" font-size="75" font-family="BigCaslon-Medium, Big Caslon" font-weight="500"><tspan x="0" y="0">4</tspan></text>
+      <text id="R" transform="translate(0.488 70)" fill="#f2b9ae" font-size="75" font-family="BigCaslon-Medium, Big Caslon" font-weight="500"><tspan x="0" y="0">R</tspan></text>
+      <text id="U" transform="translate(102.488 70)" fill="#f2b9ae" font-size="75" font-family="BigCaslon-Medium, Big Caslon" font-weight="500"><tspan x="0" y="0">U</tspan></text>
+    </g>
+    <g id="Group_59" data-name="Group 59" transform="translate(874 138.812)">
+      <line id="Line_1" data-name="Line 1" x2="172.098" transform="translate(0)" fill="none" stroke="#c7bea5" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_2" data-name="Line 2" x2="172.098" transform="translate(0 6.065)" fill="none" stroke="#c7bea5" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <text id="Find_open_Restaurants" data-name="Find open Restaurants" transform="translate(876 167)" fill="#f2b9ae" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="0" y="0">Find open Restaurants</tspan></text>
+  </g>
+</svg>

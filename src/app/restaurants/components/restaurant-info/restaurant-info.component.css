@@ -1,0 +1,69 @@
+.restaurant-info-parent {
+  background: #f8f8ff;
+  height: 100vh;
+}
+
+.restaurant-info-title {
+  color: #000;
+  font-family: 'Avenir';
+
+}
+
+.restaurant-info-image-main {
+  width: 50%;
+}
+
+.restaurant-info-hours {
+  font-family: 'Avenir';
+  font-weight: 450;
+}
+
+.restaurant-details {
+  width: 50%;
+  text-align: center;
+}
+
+.restaurant-info-workingday {
+  font-family: 'Avenir';
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.restaurant-info-main {
+  display: flex;
+}
+
+.restaurant-info-restaurant {
+  border-radius: 50%;
+  width: 50%;
+  display: block;
+  margin: 20px auto auto auto;
+}
+
+.logo-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
+}
+
+
+.restaurant-info-button {
+  width: 150px;
+  height: 40px;
+  background-color: #f8f8ff;
+  border-radius: 30px;
+  margin: 40px auto auto auto;
+  text-align: center;
+  font-family: 'Avenir';
+
+  font-size: 25px;
+  padding-top: 10px;
+  color: #A7A2A2;
+  box-shadow: -5px -5px 10px 0 rgb(255, 255, 255),
+    3px 3px 6px 0 rgba(117, 125, 183, 0.349)
+}
+
+.restaurant-info-button:hover {
+  box-shadow: 3px 3px 6px 0 rgba(117, 125, 183, 0.7)
+}
