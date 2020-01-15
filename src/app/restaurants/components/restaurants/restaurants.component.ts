@@ -9,17 +9,36 @@ import { RestaurantService } from '../../services/restaurant.service';
 export class RestaurantsComponent implements OnInit {
 
   restaurants: any;
+  totalRestaurants: number;
+  restaurantsPerPage: number = 8;
+  numberOfPages: number;
+  p: number = 1;
   constructor(private restaurantService: RestaurantService) { }
-  
+
   ngOnInit() {
     this.restaurantService.getRestaurants().subscribe(
-      data => { 
+      data => {
         this.restaurants = data;
+        this.paginateRestaurants();
       },
       error => {
         console.log(error);
       }
     );
+  }
+
+  paginateRestaurants() {
+    this.getTotalRestaurants();
+    this.getNumberOfPages();
+  }
+
+  getTotalRestaurants() {
+    this.totalRestaurants = this.restaurants.length;
+    console.log(this.totalRestaurants)
+  }
+
+  getNumberOfPages() {
+    this.numberOfPages = Math.ceil(this.totalRestaurants / this.restaurantsPerPage);
   }
 
 }

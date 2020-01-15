@@ -7,8 +7,6 @@
     </div>
     <div class="restaurant-details">
       <h1 class="restaurant-info-title">{{ restaurant.name }}</h1>
-
-      <p>{{ today | date:'h:mm a' | lowercase }}</p>
       <h2 class="restaurant-info-hours">Business hours</h2>
       <p class="restaurant-info-workingday" *ngFor='let workingDay of restaurant.workingDays'>
         {{ workingDay.day }} {{ workingDay.time }}

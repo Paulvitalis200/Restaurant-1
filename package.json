@@ -21,6 +21,8 @@
     "@angular/router": "~8.2.14",
     "csv-parser": "^2.3.2",
     "csvtojson": "^2.0.10",
+    "moment": "^2.24.0",
+    "ngx-pagination": "^5.0.0",
     "papaparse": "^5.1.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",

@@ -1,11 +1,12 @@
 .restaurant-info-parent {
   background: #f8f8ff;
   height: 100vh;
+  font-family: 'Nunito', sans-serif;
 }
 
 .restaurant-info-title {
   color: #000;
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
 
 }
 
@@ -14,7 +15,7 @@
 }
 
 .restaurant-info-hours {
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
   font-weight: 450;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .restaurant-info-workingday {
-  font-family: 'Avenir';
+  /* font-family: 'Nunito', sans-serif; */
   font-weight: 300;
   font-size: 20px;
 }
@@ -49,17 +50,17 @@
 
 
 .restaurant-info-button {
-  width: 150px;
-  height: 40px;
+  width: 100px;
+  height: 30px;
   background-color: #f8f8ff;
   border-radius: 30px;
   margin: 40px auto auto auto;
   text-align: center;
-  font-family: 'Avenir';
+  font-family: 'Nunito', sans-serif;
 
-  font-size: 25px;
-  padding-top: 10px;
-  color: #A7A2A2;
+  font-size: 20px;
+  padding-top: 5px;
+  color: #8c8f96;
   box-shadow: -5px -5px 10px 0 rgb(255, 255, 255),
     3px 3px 6px 0 rgba(117, 125, 183, 0.349)
 }

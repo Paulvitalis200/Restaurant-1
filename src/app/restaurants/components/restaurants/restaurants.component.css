@@ -1,7 +1,6 @@
 .main-div {
   background: #f8f8ff;
   height: 100vh;
-  padding: 30px;
 }
 
 .logo {
@@ -32,4 +31,9 @@
 
 .restaurant-card:hover {
   box-shadow: 3px 3px 6px 0 rgba(117, 125, 183, 0.7);
+}
+
+.paginate {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
