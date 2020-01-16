@@ -1,6 +1,23 @@
 # Restaurants
+An application for viewing open restaurants
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+
+## Running the app
+The application is accessed at: https://restaurant-app-2.herokuapp.com/
+
+To view all restaurants, access the url: https://restaurant-app-2.herokuapp.com/
+
+To view an individual restaurant click on an individual restaurant.
+
+The restaurants are stored in a simple backend API accessed at this repository: https://github.com/Paulstar200/Restaurant-app-API
+
+The endpoint getting the restaurants in json format is: https://restaurant-api-1.herokuapp.com/api/restaurants
+
+## Setting up the project locally
+1. Clone this repository onto your machine.
+2. Ensure `Node` is installed on your machine.
+2. Install all dependencies using `npm install`
 
 ## Development server
 

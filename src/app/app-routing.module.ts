@@ -5,7 +5,7 @@ import { RestaurantInfoComponent } from './restaurants/components/restaurant-inf
 
 
 const routes: Routes = [
-  { path: 'restaurants', component: RestaurantsComponent },
+  { path: '', component: RestaurantsComponent },
   { path: 'restaurant-info', component: RestaurantInfoComponent }
 ];
 

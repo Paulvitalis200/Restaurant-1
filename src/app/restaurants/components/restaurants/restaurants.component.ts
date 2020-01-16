@@ -34,7 +34,6 @@ export class RestaurantsComponent implements OnInit {
 
   getTotalRestaurants() {
     this.totalRestaurants = this.restaurants.length;
-    console.log(this.totalRestaurants)
   }
 
   getNumberOfPages() {

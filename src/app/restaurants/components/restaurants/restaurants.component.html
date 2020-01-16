@@ -1,19 +1,10 @@
  <div class="main-div">
   <img class="logo" src="../../../../assets/R4U logo.svg">
   <div class="restaurants-container">
-    <!-- <div class="restaurant-card" *ngFor='let restaurant of restaurants; index as ind'>
-      
-     
-    </div>  -->
-
     <div class="restaurant-card"
       *ngFor="let restaurant of restaurants | paginate: { itemsPerPage: restaurantsPerPage, currentPage: p }">
       <app-restaurant [restaurant]="restaurant"></app-restaurant>
     </div>
-
   </div>
-
-
   <pagination-controls class="paginate" (pageChange)="p=$event"></pagination-controls>
-
 </div>

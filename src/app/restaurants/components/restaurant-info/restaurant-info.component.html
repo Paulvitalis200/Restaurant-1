@@ -6,7 +6,18 @@
         alt="restaurant image" />
     </div>
     <div class="restaurant-details">
-      <h1 class="restaurant-info-title">{{ restaurant.name }}</h1>
+      <h1>{{ restaurant.name }}</h1>
+      <div *ngIf="todayDate24 > closingTime24; else openTemplate">
+        <p class="currently-open-closed closed-text">
+          Currently Closed
+        </p>
+        <p class="opening-time">Opens at {{ openingTime }}</p>
+      </div>
+
+      <ng-template #openTemplate>
+        <p class="currently-open-closed open-text">Currently Open</p>
+      </ng-template>
+
       <h2 class="restaurant-info-hours">Business hours</h2>
       <p class="restaurant-info-workingday" *ngFor='let workingDay of restaurant.workingDays'>
         {{ workingDay.day }} {{ workingDay.time }}
