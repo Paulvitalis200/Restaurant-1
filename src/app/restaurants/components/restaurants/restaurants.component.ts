@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RestaurantService } from '../../services/restaurant.service';
+import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({
   selector: 'app-restaurants',
@@ -13,16 +14,23 @@ export class RestaurantsComponent implements OnInit {
   restaurantsPerPage: number = 8;
   numberOfPages: number;
   p: number = 1;
-  constructor(private restaurantService: RestaurantService) { }
+  constructor(
+    private restaurantService: RestaurantService,
+    private spinner: NgxSpinnerService
+  ) { }
 
   ngOnInit() {
+    /** spinner starts on init */
+    this.spinner.show();
     this.restaurantService.getRestaurants().subscribe(
       data => {
         this.restaurants = data;
         this.paginateRestaurants();
+        this.spinner.hide();
       },
       error => {
         console.log(error);
+        this.spinner.hide();
       }
     );
   }

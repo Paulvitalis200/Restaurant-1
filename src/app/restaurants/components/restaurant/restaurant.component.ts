@@ -14,7 +14,6 @@ export class RestaurantComponent implements OnInit {
 
   ngOnInit() {
     this.splitDays();
-
   }
 
   splitDays() {

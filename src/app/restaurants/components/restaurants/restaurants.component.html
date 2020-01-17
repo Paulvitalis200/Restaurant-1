@@ -1,5 +1,12 @@
  <div class="main-div">
   <img class="logo" src="../../../../assets/R4U logo.svg">
+  <ngx-spinner>
+    <div style="color: #84a5dd" class="la-ball-scale-multiple la-3x">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </ngx-spinner>
   <div class="restaurants-container">
     <div class="restaurant-card"
       *ngFor="let restaurant of restaurants | paginate: { itemsPerPage: restaurantsPerPage, currentPage: p }">

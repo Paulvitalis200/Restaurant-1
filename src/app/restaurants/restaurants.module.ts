@@ -4,12 +4,14 @@ import { RestaurantsComponent } from './components/restaurants/restaurants.compo
 import { RestaurantComponent } from './components/restaurant/restaurant.component';
 import { RestaurantInfoComponent } from './components/restaurant-info/restaurant-info.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 @NgModule({
   declarations: [RestaurantsComponent, RestaurantComponent, RestaurantInfoComponent],
   imports: [
     CommonModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgxSpinnerModule,
   ]
 })
 export class RestaurantsModule { }
