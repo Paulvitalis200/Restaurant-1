@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Location } from '@angular/common';
-import * as moment from 'moment';
 
 @Component({
   selector: 'app-restaurant-info',
