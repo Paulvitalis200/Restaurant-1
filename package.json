@@ -27,7 +27,7 @@
     "csv-parser": "^2.3.2",
     "csvtojson": "^2.0.10",
     "express": "^4.17.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "ngx-pagination": "^5.0.0",
     "ngx-spinner": "^8.1.0",
     "papaparse": "^5.1.1",
